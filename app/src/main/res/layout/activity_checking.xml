@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UseFuntionCheck.Checking"
+    android:background="@drawable/homescreen">
+
+
+    <RelativeLayout
+        android:id="@+id/layoutBegin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:layout_below="@+id/layoutresult"
+        android:layout_alignParentBottom="true">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+
+        <Button
+            android:id="@+id/Checking"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/play"
+            android:visibility="visible" />
+
+
+    </RelativeLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/mainStar"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bglogo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/star1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/hidestart"
+            app:layout_constraintCircle="@id/mainStar"
+            app:layout_constraintCircleAngle="300"
+            app:layout_constraintCircleRadius="90dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/star2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/hidestart"
+            app:layout_constraintCircle="@id/mainStar"
+            app:layout_constraintCircleAngle="330"
+            app:layout_constraintCircleRadius="110dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/star3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/hidestart"
+            app:layout_constraintCircle="@id/mainStar"
+            app:layout_constraintCircleAngle="360"
+            app:layout_constraintCircleRadius="120dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/star4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/hidestart"
+            app:layout_constraintCircle="@id/mainStar"
+            app:layout_constraintCircleAngle="30"
+            app:layout_constraintCircleRadius="110dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/star5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/hidestart"
+            app:layout_constraintCircle="@id/mainStar"
+            app:layout_constraintCircleAngle="60"
+            app:layout_constraintCircleRadius="90dp"
+            tools:ignore="MissingConstraints" />
+
+
+        <ImageView
+            android:id="@+id/fullstar1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/fullstart"
+            android:visibility="gone"
+            app:layout_constraintCircle="@id/mainStar"
+            app:layout_constraintCircleAngle="300"
+            app:layout_constraintCircleRadius="90dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/fullstar2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/fullstart"
+            android:visibility="gone"
+            app:layout_constraintCircle="@id/mainStar"
+            app:layout_constraintCircleAngle="330"
+            app:layout_constraintCircleRadius="110dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/fullstar3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/fullstart"
+            android:visibility="gone"
+            app:layout_constraintCircle="@id/mainStar"
+            app:layout_constraintCircleAngle="360"
+            app:layout_constraintCircleRadius="120dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/fullstar4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/fullstart"
+            android:visibility="gone"
+            app:layout_constraintCircle="@id/mainStar"
+            app:layout_constraintCircleAngle="30"
+            app:layout_constraintCircleRadius="110dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/fullstar5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/fullstart"
+            android:visibility="gone"
+            app:layout_constraintCircle="@id/mainStar"
+            app:layout_constraintCircleAngle="60"
+            app:layout_constraintCircleRadius="90dp"
+            tools:ignore="MissingConstraints" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="500dp"-->
+        <!--android:layout_below="@+id/layoutlogo"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginLeft="32dp"-->
+        <!--android:layout_marginTop="-32dp"-->
+        <!--android:layout_marginRight="32dp"-->
+        <!--android:layout_marginBottom="32dp"-->
+        <!--android:background="@drawable/frame">-->
+
+    <!--</LinearLayout>-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutresult"
+        android:layout_width="379dp"
+        android:layout_height="256dp"
+        android:layout_below="@+id/layoutlogo"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/frame"
+        android:padding="32dp"
+        >
+
+        <ImageView
+            android:id="@+id/poopView"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.48"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/TextureView"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintCircle="@id/poopView"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/poopDis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/poopView"
+            app:layout_constraintStart_toStartOf="@+id/poopView"
+            app:layout_constraintTop_toBottomOf="@+id/poopView" />
+
+        <TextView
+            android:id="@+id/textureDis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/TextureView"
+            app:layout_constraintStart_toStartOf="@+id/TextureView"
+            app:layout_constraintTop_toBottomOf="@+id/TextureView" />
+
+        <ImageView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/question" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

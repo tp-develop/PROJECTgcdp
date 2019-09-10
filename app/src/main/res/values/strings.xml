@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="ExtraTranslation">
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="minimum_password">Please insert 6 digits</string>
+    <string name="auth_failed">Authentication Fail!</string>
+    <string name="title_activity_authen">AuthenActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="navigation_drawer_open">Open navigation</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec condimentum
+        ante, quis mattis mi. Proin ut rhoncus libero, ac euismod neque. Ut suscipit, enim a facilisis consequat, orci lacus venenatis orci, at ultricies orci nulla sed ex. In condimentum viverra velit, eget feugiat libero imperdiet vel. Aenean pretium, lectus vitae bibendum bibendum, diam turpis convallis eros, quis tristique leo sapien at ipsum. Praesent eu odio id nulla lobortis auctor. Donec eget dolor eget nisl euismod commodo vel a lacus. Quisque ut justo vitae urna pharetra accumsan. Etiam dignissim neque iaculis mauris viverra, blandit rhoncus odio porttitor. Phasellus nibh arcu.</string>
+    <string name="brown">You are fine. Poop is naturally brown due to the bile produced in your liver.</string>
+    <string name="green">Food may be moving through you larg intesting too quickly. Or you could have eaten lots of green leafy veggies, or green food colouring</string>
+    <string name="yellow">Greasy foul-smelling yellow poop indicates excess fat,which could be due to a malabsorption disorder like cellac disease</string>
+    <string name="black">it could mean that you are bleeding internally due to ulcer or cancer. Some vitamints containing iron or bismuth subsalicylaye cloud cause black poop too. Pay attention  if it is sticky, and see a doc if you are worried.</string>
+    <string name="gray">if it is not  what you are normaliy seeing ,it could mean a blie duct obstruction. Some meds could cause this too. See a doc</string>
+    <string name="red">Blood in your poop cloud be a symptom of cancer. Always see a doc right away if you find blood in you stool.</string>
+
+    <string name="shape1">You’re lacking fiber and fluids. Drink more water and chomp on some fruits and veggies.</string>
+    <string name="shape2">Optimal poop! You’re doing fine!</string>
+    <string name="shape3">You’re having diarrhea! This is probably caused by some sort of infection and diarrhea is your body’s way of cleaning it out. Make sure you drink lost of liquids to replace the liquids lost otherwise you might find yourself dehydrated!</string>
+    <string name="shape4">Not as serious as separate hard lumps, but you need to load up on fluids and fiber.</string>
+    <string name="shape5">Not too bed. Pretty normal if you’re pooping multiple times a day.</string>
+    <string name="shape6">This is normal, but the cracks mean you cloud still up your intake of water.</string>
+    <string name="shape7">You’re on the edge of normal. This type of poop is on its way to becoming diarrhea.</string>
+    <string name="shape8">Presence of  too much oil, which could mean that your body isn’t absorbing the fats properly. Diseases like chronic pancreatitis prevent your body form properly adsorbing fat.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_login">Log in</string>
+    <string name="menu_logout">Log out</string>
+    <string name="login_label">Log In</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="send_text">Send</string>
+    <string name="title_sign_in">Welcome</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="hint_password">password</string>
+    <string name="hint_email">email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="heading_recent">Recent</string>
+    <string name="heading_my_posts">My Posts</string>
+    <string name="heading_my_top_posts">My Top Posts</string>
+
+
+</resources>
